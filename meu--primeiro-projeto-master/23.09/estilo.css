@@ -1,0 +1,73 @@
+body{
+    background-color: floralwhite;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(121, 138, 200);
+}
+
+nav{
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+}
+
+a{
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(26, 4, 124);
+    margin-inline-end: 35px;
+}
+
+ul{
+    color: rgb(24, 24, 23);
+  font-style: normal;
+  font-size: 20px;
+}
+
+a:hover{
+    text-shadow: 2px 2px 2px rgb(58, 58, 212);
+    background-color: rgb(37, 76, 150);
+}
+
+.text{
+   color: rgb(0, 0, 0);
+  font-style: initial;
+
+}
+
+#img-sifilis{
+    height: 35px;
+    width: 55px;
+    left: 05px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+#feridas-sifilis-1{
+    height: 250px;
+   width: 450px;
+}
+
+#ferida-sifilis-2{
+    height: 250px;
+   width: 450px;
+}
+
+#image-trat{
+    height: 550px;
+   width: 750px;
+}
+
+.rodapé header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(9, 34, 125);
+    max-height: 25px; 
+}
